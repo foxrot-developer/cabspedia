@@ -1,0 +1,7 @@
+.route-name {
+  color: #646464;
+}
+
+.from-route {
+  color: var(--secondary);
+}

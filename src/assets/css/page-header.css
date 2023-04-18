@@ -1,0 +1,18 @@
+.header-container {
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/home-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header-title {
+  font-family: var(--inter);
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 5px;
+}

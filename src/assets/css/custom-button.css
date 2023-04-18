@@ -1,0 +1,19 @@
+.custom-btn {
+  color: #000;
+  background-color: var(--primary);
+  border: none;
+  outline: none;
+  padding: 14px 25px;
+  font-family: var(--inter);
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.custom-btn:hover {
+  color: #fff;
+  background-color: var(--secondary);
+  transition: all 0.3s ease-out 0s;
+}

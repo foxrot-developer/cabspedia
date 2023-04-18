@@ -1,0 +1,37 @@
+.contact-info-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 30px 20px;
+  position: relative;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-info-main:hover {
+  transform: translateY(-8px);
+}
+
+.info-title {
+  font-family: var(--inter);
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+.contact-info-icon {
+  font-size: 70px;
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-info-main:hover .contact-info-icon {
+  transform: rotateY(360deg) !important;
+}

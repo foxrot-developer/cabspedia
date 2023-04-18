@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --inter: "Inter", sans-serif;
+  --roboto: "Inter", sans-serif;
+  --primary: #ffc501;
+  --secondary: #0499dd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+html {
+  overflow-x: hidden !important;
+  font-family: var(--inter) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.left-small-heading {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+  font-family: var(--inter);
+}
+
+.left-big-heading {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 45px !important;
+  color: #000;
+  font-family: var(--inter);
+}
+
+.special-heading {
+  color: var(--secondary);
+}
+
+.detail-text {
+  font-family: var(--roboto);
+}
+
+.about-list {
+  list-style: none;
+}
+
+.about-list li::before {
+  content: "✓";
+  font-size: 20px;
+  color: var(--secondary);
+}
+
+.section-bg {
+  background-color: #f9f9f9;
+}
+
+.heading-divider {
+  display: inline-block;
+  position: relative;
+  border: 1px solid var(--primary);
+  width: 100px;
+  height: 0px;
+  border-radius: 50px;
+}
+
+.card-img {
+  border-radius: 30px;
+  padding: 6px;
+  /* border: 3px solid var(--primary); */
+  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+}
+
+.card-main {
+  font-family: var(--inter);
+}
+
+.main-card {
+  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .left-big-heading {
+    font-size: 25px !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .banner-main-section {
+    height: 350px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .tagline {
+    font-size: 25px !important;
   }
 }

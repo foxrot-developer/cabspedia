@@ -1,0 +1,42 @@
+.banner-main-section {
+  height: 500px;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/home-bg.png"); */
+  background-image: url("../images/home-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swift-quote {
+  background-color: #d4d4d4;
+  border: 3px solid #d4d4d4;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #404041;
+  text-align: center;
+}
+
+.welcome {
+  color: var(--primary);
+  font-family: var(--roboto);
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 6px;
+}
+
+.tagline {
+  color: #fff;
+  font-family: var(--inter);
+  font-size: 50px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.special-tag {
+  color: var(--secondary);
+  font-weight: bold;
+}

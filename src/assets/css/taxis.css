@@ -1,0 +1,13 @@
+.cab-icon {
+  color: #000;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.cab-name {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: var(--inter);
+}

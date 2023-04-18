@@ -1,0 +1,16 @@
+.book-section {
+  background-color: var(--primary);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-icon {
+  font-size: 30px;
+}
+
+.book-title {
+  font-family: var(--roboto);
+  font-weight: bold;
+}

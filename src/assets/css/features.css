@@ -1,0 +1,46 @@
+.feature-section {
+  padding: 40px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/feature-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.feature-card {
+  padding: 25px 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+  transition: all 0.5s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+  line-height: 85px;
+  border-radius: 50px;
+  margin: 0 auto 20px;
+  border: 5px solid #000;
+  background: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+
+.feature-card:hover .feature-icon {
+  transform: rotateY(360deg) !important;
+}
+
+.feature-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-family: var(--inter);
+}

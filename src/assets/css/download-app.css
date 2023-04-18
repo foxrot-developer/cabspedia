@@ -1,0 +1,12 @@
+.app-section {
+  background-image: url("../images/app-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.app-icon {
+  font-size: 30px;
+}

@@ -1,0 +1,41 @@
+.footer-main {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.company-desc {
+  color: #fff;
+  font-family: var(--inter);
+}
+
+.footer-section-heading {
+  color: var(--primary);
+  font-family: var(--inter);
+}
+
+.footer-links {
+  font-family: var(--inter);
+  list-style: none;
+  color: #fff;
+}
+
+.page-link {
+  cursor: pointer;
+  line-height: 35px;
+}
+
+.page-link:hover {
+  color: var(--secondary);
+}
+
+.social-link {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.social-link:hover {
+  color: var(--secondary);
+}

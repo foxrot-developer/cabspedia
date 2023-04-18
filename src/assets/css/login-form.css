@@ -1,0 +1,93 @@
+.main-section-container {
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+.fav-logo {
+  width: 100px;
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.user-form {
+  font-family: var(--inter);
+}
+
+.main-form {
+  padding: 30px 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  position: relative;
+  font-family: var(--inter);
+  background-color: var(--primary);
+}
+
+.main-form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50px;
+  right: 50px;
+  background: var(--secondary);
+  height: 12px;
+  border-radius: 0 0 50px 50px;
+}
+
+.main-form::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  right: 50px;
+  background: var(--secondary);
+  height: 12px;
+  border-radius: 50px 50px 0 0;
+}
+
+.forget {
+  font-weight: bold;
+  cursor: pointer;
+  font-family: var(--inter);
+}
+
+.forget:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
